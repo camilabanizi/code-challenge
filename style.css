@@ -1,0 +1,50 @@
+body {
+	background-image: linear-gradient(0.25turn, #030303, #757973);
+	text-align: center;
+	box-sizing: border-box;
+	font-family: "Cinzel", serif;
+}
+
+h1 {
+	margin: 0;
+	padding: 8px;
+}
+
+.container-form {
+	width: 400px;
+	background: white;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.label {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.controls {
+	border-radius: 5px;
+	padding: 10px;
+	width: 90%;
+	margin-bottom: 16px;
+	border: 1px solid #2c2d2e;
+	font-size: 18px;
+}
+
+#send {
+	border: 1px solid rgb(15, 10, 10);
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	width: 100%;
+	margin: 16px 0;
+}
+
+#send:hover {
+	background-image: linear-gradient(0.25turn, #acabab, #757973, #030303);
+}

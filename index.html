@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulario</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,700&family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container-form">
+			<form>
+				<h1>Formulario</h1>
+				<label for="name" class="label">Nombre:</label> <br />
+				<input type="text" placeholder="Name" id="name" class="controls" />
+				<br />
+
+				<label for="last-name" class="label">Apellido:</label> <br />
+				<input
+					type="text"
+					placeholder="Last Name"
+					id="lastname"
+					class="controls"
+				/>
+				<br />
+
+				<label for="date" class="label">Fecha de nacimiento:</label><br />
+				<input type="date" id="date" class="controls" />
+				<br />
+
+				<input type="submit" value="Enviar" id="send" class="label" />
+			</form>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
